@@ -82,7 +82,7 @@ add_action( 'init', function(){
                 'body' => wp_json_encode($body),
                 'headers' => array(
                     'Content-Type' => 'application/json',
-                    'X-goog-api-key' => 'AIzaSyAjcygyDBZE-R7YW37kXVm5iwnA_J84hjY'
+                    'X-goog-api-key' => ''
                 ),
                 'timeout' => 180
             ));
